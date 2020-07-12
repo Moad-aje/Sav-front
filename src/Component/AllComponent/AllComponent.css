@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+.container {
+  position: relative;
+  
+}
+.Tableft {
+  width: 30%;
+  float: left;
+  padding-top: 9px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  top: 50%;
+}
+
+.Tabright{
+
+  width: 70%;
+  float: left;
+  padding-top: 9px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+
+}
+.goLeft {
+width: 29%;
+float: left;
+text-align: center;
+padding-top: 50px;
+
+
+}
+
+.goRight{
+  width: 71%;
+  float: left;
+  padding: 50px;
+
+  
+}
+
+h3 { color: white; font-family: 'Raleway', sans-serif; font-size: 28px; font-weight: 400; line-height: 32px; margin: 0 0 24px; }
+/*.Card {
+    max-width: 65%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 2px 44px 0 rgba(203, 220, 232, 0.8);
+    box-shadow: 0 2px 44px 0 rgba(203, 220, 232, 0.8);
+}*/
+
+#circle1 {
+    background: #fefb72;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+#circle2 {
+    background: #f0bb31;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.Open{
+margin-top: 4px;
+color: white;
+}
+.Closed{
+margin-top: 4px;  
+color: white;
+}
+
+.TabAtt{
+width: 30%;
+float: left;
+padding: 10px;
+position: absolute;
+
+top: 466%;
+}
+.tableAttach{
+ 
+    border-collapse: collapse;
+    /*margin-bottom: 7em;*/
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    bottom:0px;
+}
+
+.bg-modal2 {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 915%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-contents2 {
+  width: 600px;
+  height: 340px; 
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+
+  
+}
+.modal-contents3{
+  width: 600px;
+  height: 505px; 
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+/*input[type='text'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width:50%;
+  display: block;
+  margin: 15px auto;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  
+}
+select {
+  width:50%;
+  /*display: block;*/
+/*  margin: 15px auto;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px; 
+  align-items: center;
+}*/
+
+.close2 {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 42px;
+  color: #333;
+  transform: rotate(45deg);
+  cursor: pointer;
+  :hover {
+    color: #666;
+  }
+}
+.button {
+  background-color: rgba(0, 136, 169, 1);
+  border: 2px solid white;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 10px 28px;
+  color: white;
+  margin-top: 10px;
+  display: inline-block;
+}
+.button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+
+
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 76%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=Date], select, textarea{
+  width: 76%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=comment], select, textarea{
+  width: 76%;
+  /*height: 76%;*/
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+/*input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 23px;
+}*/
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 23px; 
+}
+
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 23%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.th2 {
+  width: 30%;
+}
+.scrollit {
+    overflow:scroll;
+    
+}
+.col-1 {
+  width: 7%;
+}
+.col-2 {
+  width: 15%;
+}
+.col-3 {
+  width: 14%;
+}
+.col-4 {
+  width: 20%;
+}
+.col-5 {
+  width: 16%;
+}
+.col-6 {
+  width: 6%;
+}
+.col-7 {
+  width: 14%;
+}
